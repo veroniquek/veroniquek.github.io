@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Véronique Kaufmann</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Véronique Kaufmann</h1>
+    <p>ETH MSc CS</p>
+    <p> vkaufman@ethz.ch</p>
+  </header>
+
+  <nav>
+    <!-- <a href="#">Home</a> -->
+    <!-- <a href="projects.html">Projects</a> -->
+    <!-- <a href="about.html">About</a> -->
+  </nav>
+<div class="container">
+    <h2> Welcome </h2>
+    <p>
+      I am a computer scientist, finishing my Masters at ETH in Summer 2023. 
+      I am excited about computer graphics and machine learning in general, with a strong interest in VFX, 3D game engines as well as augmented reality.
+    </p>
+</div>
+<div class="container">
+  <h2>Projects</h2>
+  <div class="project">
+
+      <div class="subtitle-box hololabel">
+          <div class="overlay">
+          <h2>HoloLabel: Augmented reality
+              user-in-the-loop online annotation
+              tool for as-is building information</h2>
+          </div>
+      </div>
+
+          <p>An AR scene segmentation tool that allows a user to annotate and segment building information while scanning it.
+              We focus on classification using a predefined set of classes. The user can request for a segmentation proposal of the scene, 
+              and then manually adapt the segments using a virtual paint brush.
+          </p>
+          <p>
+              Contributions: Implementation of segmentation pipeline and algorithm, communication between HoloLens/Unity and python server
+          </p>
+          <p>
+          <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/565784">EC3 Paper</a> 
+
+          <a href="https://gitlab.ethz.ch/dagrawal/mixed-reality-ar-scene-annotation-project">Code</a></p>
+  </div>
+  <div class="project">
+
+      <div class="subtitle-box nori">
+          <!-- <div class="overlay"> -->
+          <h2>Sphere Tracer Implementation and Extension using the Nori Framework</h2>
+          <!-- </div> -->
+      </div>
+
+          <p> Implementation of a sphere tracer in C++ using the <a href="https://wjakob.github.io/nori/">Nori Framework</a>
+          </p>
+          <p>
+              Contributions: Directional Light Emitter, Image-Textures, Normal Mapping, Henyey Greenstein Phase Function, Emissive and Homogeneous Participating Media, Spectral Rendering
+          </p>
+          <p>
+              <a href="resources/nori_report_veronique/report.html">Report</a>
+          </p>
+  </div>
+
+  <div class="project">
+
+      <div class="subtitle-box avx">
+          <div class="overlay">
+              <h2>AVX2 Sphere Tracer</h2>
+          </div>
+      </div>
+
+          <p> C implementation of a sphere tracer through implicit shapes, applying various optimizations using AVX2 vector instructions. 
+              The sphere tracer supports shadows, mirror and specular reflections, anti-aliasing, multiple light sources and 5 different types of object shapes.
+          </p>
+          <p>
+              Contributions: Implementation of reflections (mirror and specular) and anti-aliasing through supersampling. 
+              Implement vectorized geometry functions. Implement object-vectorization of distance function. 
+              Implement rendering and spheretracing for ray-vectorization.
+          </p>
+          <p>
+              <a href="https://github.com/veroniquek/simd-sphere-tracer">Code</a>
+          </p>
+  </div>
+  <div class="project">
+
+    <div class="subtitle-box ">
+        <div class="overlay">
+            <h2>Word Prediction and Completion
+            </h2>
+        </div>
+    </div>
+
+        <p> Collection of Implementations of Word Prediction Models and Experiments
+        </p>
+       
+        <p>
+            <a href="https://github.com/veroniquek/word-prediction">Code</a>
+        </p>
+</div>
+  <div class="project">
+
+      <div class="subtitle-box ">
+          <div class="overlay">
+              <h2>Course Summaries</h2>
+          </div>
+      </div>
+
+          <p> Latex Summaries and Exam Cheatsheets for courses at ETH.
+          </p>
+          <p>
+              <a href="https://github.com/veroniquek/aml_cheatsheet">Advanced Machine Learning Cheatsheet</a>
+              </p>
+              <p>
+                  <a href="https://github.com/veroniquek/aml_summary">Advanced Machine Learning Course Summary</a>
+              </p>
+  </div>
+</div>
+</body>
+
+</html>

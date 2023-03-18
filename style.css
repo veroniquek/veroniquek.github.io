@@ -1,0 +1,139 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0 1em;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.project {
+  background-color: white;
+  
+  box-shadow: 0px 0px 10px #ccc;
+  margin-bottom: 1.5em; 
+
+}
+
+/* .project h2 {
+  margin-top: 0;
+} */
+
+.project p {
+  font-size: 14px;
+  line-height: 1.5;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  /* padding: 1em; */
+}
+
+
+.subtitle-box {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  color: #fff;
+  background-size: cover;
+  background-position: center center;
+}
+
+.subtitle-box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:  100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  color: #fff;
+  background-size: cover;
+  background-position: center center;
+}
+
+.subtitle-box .overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.subtitle-box h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+
+.hololabel {
+  background-image: url('resources/hololabel.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.nori {
+  background-image: url('resources/nori-raytracer.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.avx {
+  background-image: url('resources/avx.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+/* .project-2 {
+  background-image: url('project-2-image-url.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.project-3 {
+  background-image: url('project-3-image-url.jpg');
+  background-size: cover;
+  background-position: center center;
+} */
